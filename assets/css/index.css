@@ -223,15 +223,47 @@ li a {
 
 }
 
+#edison-title {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  top: 25vh;
+  left: 55vw;
+}
+
+#title {
+  position: relative;
+  transform: translateY(-180%);
+  left: 3%;
+  font-size: 20px;
+  color: var(--my-grey);
+
+    -webkit-animation: 6s ease 0s normal forwards 1 fadein;
+    animation: 6s ease 0s normal forwards 1 fadein;
+}
+
+@keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
 
 svg.intro {
   /*background: linear-gradient(135deg, #aa3bb1, #582a7e);*/
   max-width: 800px;
-  position: absolute;
-  top: 50%;
-  left: 80%;
+  position: relative;
+  top: 50%;/*
+  left: 80%;*//*
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);*/
   /*box-shadow: 0 30px 50px -20px #2e0642;*/
   text-align: center;
 }
