@@ -1,7 +1,7 @@
 
-	var red = "#D56969";
+	var red = "#C0D684";
 	var blue = "#ADCAD3";
-	var grey = "#707070";
+	var grey = "#3D0B37";
 
 
 	$("#red-circle").click(function() {
@@ -14,10 +14,9 @@
     var stroke3 = document.getElementsByClassName("text text-stroke text-stroke-4");
     var the_overlay_color = document.getElementById("overlay-color");
     var the_overlay = document.getElementById("overlay");
-    var social = document.getElementsByTagName("fa");
+    var social = document.getElementsByClassName("fa");
 
-
-	if(back.style.background === "rgb(213, 105, 105)"){
+	if(back.style.background === "rgb(192, 214, 132)"){
         for (var i = 0; i < nav_items.length; i++) {
         	nav_items[i].style.color = grey;
         }
@@ -30,10 +29,12 @@
         for (var i = 0; i < stroke1.length; i++) {
         	stroke3[i].style.stroke = blue;
         }
+        for (var i = 0; i < social.length; i++) {
+        	social[i].style.background = red;
+        }
         back.style.background = "white";
         left_line.style.background = blue;
         right_line.style.background = red;
-        social.style.background = red;
         the_overlay_color.style.zIndex = 1;
         the_overlay.style.zIndex = 3;
 
@@ -50,12 +51,14 @@
         for (var i = 0; i < stroke1.length; i++) {
         	stroke3[i].style.stroke = blue;
         }
+        for (var i = 0; i < social.length; i++) {
+        	social[i].style.background = blue;
+        }
         back.style.background = red;
         left_line.style.background = blue;
         right_line.style.background = grey;
-        social.style.background = blue;
-        the_overlay_color.style.zIndex = 3;
-        the_overlay.style.zIndex = 1;
+        the_overlay_color.style.zIndex = 1;
+        the_overlay.style.zIndex = 3;
     }
   });
 
@@ -69,7 +72,7 @@
     var stroke3 = document.getElementsByClassName("text text-stroke text-stroke-4");
     var the_overlay_color = document.getElementById("overlay-color");
     var the_overlay = document.getElementById("overlay");
-    var social = document.getElementsByClassName("fa");
+   	var social = document.getElementsByClassName("fa");
 
 
 	if(back.style.background === "rgb(173, 202, 211)"){
@@ -85,10 +88,12 @@
         for (var i = 0; i < stroke1.length; i++) {
         	stroke3[i].style.stroke = blue;
         } 
+        for (var i = 0; i < social.length; i++) {
+        	social[i].style.background = red;
+        }
         back.style.background = "white";
         left_line.style.background = blue;
         right_line.style.background = red;
-        social.style.background = red;
         the_overlay_color.style.zIndex = 1;
         the_overlay.style.zIndex = 3;
 
@@ -106,10 +111,12 @@
         for (var i = 0; i < stroke1.length; i++) {
         	stroke3[i].style.stroke = red;
         }
+        for (var i = 0; i < social.length; i++) {
+        	social[i].style.background = red;
+        }
         back.style.background = blue;
         left_line.style.background = grey;
         right_line.style.background = red;
-        social.style.background = red;
         the_overlay_color.style.zIndex = 1;
         the_overlay.style.zIndex = 3;  
     }
@@ -126,9 +133,8 @@
     var the_overlay_color = document.getElementById("overlay-color");
     var the_overlay = document.getElementById("overlay");
     var social = document.getElementsByClassName("fa");
-    var nav_hover = document.getElementsByTagName("nav-item:hover");
 
-	if(back.style.background === "rgb(112, 112, 112)"){
+	if(back.style.background === "rgb(61, 11, 55)"){
         for (var i = 0; i < nav_items.length; i++) {
         	nav_items[i].style.color = grey;
         }
@@ -141,13 +147,15 @@
         for (var i = 0; i < stroke1.length; i++) {
         	stroke3[i].style.stroke = blue;
         }
+        for (var i = 0; i < social.length; i++) {
+        	social[i].style.background = red;
+        }
         back.style.background = "white";
-        nav_hover.style.color = blue;
         left_line.style.background = blue;
         right_line.style.background = red;
-        social.style.background = red;
         the_overlay_color.style.zIndex = 1;
-        the_overlay.style.zIndex = 3;
+   		the_overlay.style.zIndex = 3;
+        nav_hover.style.color = blue; //some reason need this line or else buggy
 
     }else{
         for (var i = 0; i < nav_items.length; i++) {
@@ -162,12 +170,14 @@
         for (var i = 0; i < stroke1.length; i++) {
         	stroke3[i].style.stroke = blue;
         }
+        for (var i = 0; i < social.length; i++) {
+        	social[i].style.background = red;
+        }
     }
     back.style.background = grey;
     left_line.style.background = blue;
     right_line.style.background = red;
-    social.style.background = red;	
-    the_overlay_color.style.zIndex =3;
+    the_overlay_color.style.zIndex = 3;
     the_overlay.style.zIndex = 1;
     });
 
