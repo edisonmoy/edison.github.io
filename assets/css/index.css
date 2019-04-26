@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+:root {
+  --my-red: #D56969;
+  --my-blue: #ADCAD3;
+  --my-grey: #707070;
+}
+
 #page {
   padding:0;
   margin:0;
@@ -11,11 +17,6 @@
 .content{
   padding: 0;
   margin: 0;
-  /*display: inherit;*/
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  /*justify-content: center;
-  /*align-items: center;*/
 }
 
 .prof-container {
@@ -27,8 +28,6 @@
 }
 
 #edison {
-  /*top: 30%;*/
-  /*transform: translateY(10%) translateX(110%);*/
   z-index: 2;
   position: absolute;
   top: 0;
@@ -36,7 +35,6 @@
 }
 
 #overlay {
-  /*transform: translateY(10%) translateX(8.7%);*/
   z-index: 3;
   opacity: 1;
   transition: all .45s ease;
@@ -47,10 +45,8 @@
 #overlay:hover {
   opacity: 0;
   transition: all .45s ease;
-  /*z-index: 4;*/
 }
 #overlay-color {
-  /*transform: translateY(30%) translateX(-90%);*/
   z-index: 1;
   opacity: 1;
   transition: all .45s ease;
@@ -60,7 +56,6 @@
 #overlay-color:hover {
   opacity: 0;
   transition: all .45s ease;
-  /*z-index: 1;*/
 }
 
 
@@ -78,7 +73,7 @@
 #red-line {
   position: absolute;
   display: flex;
-  background: #D56969;
+  background: var(--my-red);
   width: 120px;
   height:10px;
   top: 12%;
@@ -89,7 +84,7 @@
 #blue-line {
   position: absolute;
   display: flex;
-  background: #ADCAD3;
+  background: var(--my-blue);
   width: 300px;
   height:10px;
   top: 12%;
@@ -101,12 +96,12 @@ li {
   position: relative;
   float: right;
   right: 1%;
-  /*color: #707070;*/
+  /*color: var(--my-grey);*/
 }
 
 li a {
   display: block;
-  color: #707070;
+  color: var(--my-grey);
   text-align: center;
   padding: 20px 22px;
   text-decoration: none;
@@ -114,9 +109,9 @@ li a {
 }
 
 
-li a:hover {
+.nav-item:hover {
   cursor: pointer;
-  color: #D56969;
+  color: var(--my-red);
 }
 
 
@@ -142,7 +137,7 @@ li a:hover {
 
   text-align: center;
   text-decoration: none;
-  background: #D56969;
+  background: var(--my-red);
   color: white;
 }
 .fa:hover {
@@ -162,16 +157,16 @@ li a:hover {
   align-items: center;
 }
 
-.circles {
 
-
+.circles:hover {
+  cursor: pointer;
 }
 
 #red-circle {
   position: absolute;
   display: flex;
   border-radius: 50%;
-  background-color: #D56969;
+  background-color: var(--my-red);
   width: 100px;
   height:100px;
   top: 75%;
@@ -183,7 +178,7 @@ li a:hover {
   position: absolute;
   display: flex;
   border-radius: 50%;
-  background-color: #ADCAD3;
+  background-color: var(--my-blue);
   width: 100px;
   height:100px;
   top: 80%;
@@ -194,7 +189,7 @@ li a:hover {
   position: absolute;
   display: flex;
   border-radius: 50%;
-  background-color: #707070;
+  background-color: var(--my-grey);
   width: 100px;
   height:100px;
   top: 80%;
@@ -211,7 +206,7 @@ li a:hover {
   transform: translateX(80%) translateY(-70%);
   font-size: 60px;
   z-index: 9;
-  color: #707070;
+  color: var(--my-grey);
 }
 
 
@@ -247,7 +242,7 @@ svg.intro.go .text {
 }
 svg.intro.go .text-stroke {
   fill: none;
-  stroke: #707070;
+  stroke: var(--my-grey);
   stroke-width: 2.8px;
   stroke-dashoffset: -300;
   stroke-dasharray: 300;
@@ -265,17 +260,17 @@ svg.intro.go .text-stroke:nth-child(3) {
           animation-delay: .9s;
 }
 svg.intro.go .text-stroke-2 {
-  stroke: #ADCAD3;
+  stroke: var(--my-blue);
   -webkit-animation-delay: 1.2s;
           animation-delay: 1.2s;
 }
 svg.intro.go .text-stroke-3 {
-  stroke:#D56969;
+  stroke:var(--my-red);
   -webkit-animation-delay: 1.2s;
           animation-delay: 1.2s;
 }
 svg.intro.go .text-stroke-4 {
-  stroke: #ADCAD3;
+  stroke: var(--my-blue);
   -webkit-animation-delay: 1.2s;
           animation-delay: 1.2s;
 }
