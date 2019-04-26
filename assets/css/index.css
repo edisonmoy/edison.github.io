@@ -20,12 +20,12 @@
 
 #edison {
   /*top: 30%;*/
-  transform: translateY(30%) translateX(110%);
+  transform: translateY(10%) translateX(110%);
   z-index: 2;
 }
 
 #overlay {
-  transform: translateY(30%) translateX(8.7%);
+  transform: translateY(10%) translateX(8.7%);
   z-index: 3;
   opacity: 1;
   transition: all .45s ease;
@@ -193,7 +193,7 @@ li a:hover {
 
 .name {
   position: absolute;
-  transform: translateX(80%) translateY(30%);
+  transform: translateX(80%) translateY(-70%);
   font-size: 60px;
   z-index: 9;
   color: #707070;
