@@ -8,7 +8,7 @@
     var back = document.getElementById("page");
     var right_line = document.getElementById("red-line");
     var left_line = document.getElementById("blue-line");
-    var nav_items = document.getElementsByTagName("a");
+    var nav_items = document.getElementsByClassName("nav-item");
     var stroke1 = document.getElementsByClassName("text text-stroke text-stroke-2");
     var the_overlay_color = document.getElementById("overlay-color");
     var the_overlay = document.getElementById("overlay");
@@ -44,7 +44,7 @@
    	var back = document.getElementById("page");
     var right_line = document.getElementById("red-line");
     var left_line = document.getElementById("blue-line");
-    var nav_items = document.getElementsByTagName("a");
+    var nav_items = document.getElementsByClassName("nav-item");
     var stroke1 = document.getElementsByClassName("text text-stroke text-stroke-2");
     var the_overlay_color = document.getElementById("overlay-color");
     var the_overlay = document.getElementById("overlay");
@@ -81,7 +81,7 @@
     var back = document.getElementById("page");
     var right_line = document.getElementById("red-line");
     var left_line = document.getElementById("blue-line");
-    var nav_items = document.getElementsByTagName("a");
+    var nav_items = document.getElementsByClassName("nav-item");
     var stroke1 = document.getElementsByClassName("text text-stroke text-stroke-2");
     var the_overlay_color = document.getElementById("overlay-color");
     var the_overlay = document.getElementById("overlay");
