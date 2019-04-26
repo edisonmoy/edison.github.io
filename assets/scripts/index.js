@@ -1,7 +1,7 @@
 
-	var red = "#C0D684";
-	var blue = "#ADCAD3";
-	var grey = "#3D0B37";
+	var red = "#f5b089";
+	var blue = "#d1e8f8";
+	var grey = "#417356";
 
 
 	$("#red-circle").click(function() {
@@ -16,7 +16,7 @@
     var the_overlay = document.getElementById("overlay");
     var social = document.getElementsByClassName("fa");
 
-	if(back.style.background === "rgb(192, 214, 132)"){
+	if(back.style.background === "rgb(245, 176, 137)"){
         for (var i = 0; i < nav_items.length; i++) {
         	nav_items[i].style.color = grey;
         }
@@ -75,7 +75,7 @@
    	var social = document.getElementsByClassName("fa");
 
 
-	if(back.style.background === "rgb(173, 202, 211)"){
+	if(back.style.background === "rgb(209, 232, 248)"){
         for (var i = 0; i < nav_items.length; i++) {
         	nav_items[i].style.color = grey;
         }
@@ -134,10 +134,10 @@
     var the_overlay = document.getElementById("overlay");
     var social = document.getElementsByClassName("fa");
 
-	if(back.style.background === "rgb(61, 11, 55)"){
-        for (var i = 0; i < nav_items.length; i++) {
-        	nav_items[i].style.color = grey;
-        }
+	if(back.style.background === "rgb(65, 115, 86)"){
+        // for (var i = 0; i < nav_items.length; i++) {
+        // 	nav_items[i].style.color = grey;
+        // }
         for (var i = 0; i < stroke1.length; i++) {
         	stroke1[i].style.stroke = blue;
         }
@@ -158,9 +158,9 @@
         nav_hover.style.color = blue; //some reason need this line or else buggy
 
     }else{
-        for (var i = 0; i < nav_items.length; i++) {
-        	nav_items[i].style.color = red;
-        }
+        // for (var i = 0; i < nav_items.length; i++) {
+        // 	nav_items[i].style.color = red;
+        // }
         for (var i = 0; i < stroke1.length; i++) {
         	stroke1[i].style.stroke = blue;
         }
