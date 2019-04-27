@@ -303,17 +303,17 @@ svg.intro.go .text-stroke:nth-child(3) {
           animation-delay: .9s;
 }
 svg.intro.go .text-stroke-2 {
-  stroke: var(--my-blue);
+  stroke: var(--my-red);
   -webkit-animation-delay: 1.2s;
           animation-delay: 1.2s;
 }
 svg.intro.go .text-stroke-3 {
-  stroke:var(--my-red);
+  stroke:var(--my-blue);
   -webkit-animation-delay: 1.2s;
           animation-delay: 1.2s;
 }
 svg.intro.go .text-stroke-4 {
-  stroke: var(--my-blue);
+  stroke: var(--my-red);
   -webkit-animation-delay: 1.2s;
           animation-delay: 1.2s;
 }
