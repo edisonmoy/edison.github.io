@@ -81,7 +81,6 @@ li a {
   top:15%;
   left:13%;
   z-index: 0;
-  justify-toprightcorner: center;
   align-items: center;
 }
 
@@ -135,6 +134,13 @@ li a {
   top: 6vh;
   left: 10vh;
 }
+#name:hover{
+  opacity: .7;
+}
+
+#aboutme {
+  opacity: .4;
+}
 
 .center {
   display: flex;
@@ -159,6 +165,15 @@ li a {
     width: 40vw;
     flex-direction: column;
     /*border:solid;*/
+  }
+
+  #corners {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: 2s ease 0s normal forwards 1 fadein;
+    animation: 2s ease 0s normal forwards 1 fadein;
+
   }
 
   #toprightcorner {
@@ -224,8 +239,9 @@ li a {
 
 
 #info {
-  position: relative;
-  left: 0%;
+  position: absolute;
+  width: 80%;
+  left: 3%;
   top: 50%;
   text-align: center;
 

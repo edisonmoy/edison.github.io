@@ -58,44 +58,49 @@
 }
 
 
-
 #overlay-color:hover {
   opacity: 0;
   transition: all .45s ease;
 }
 
-
+/*#head-bar {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+}*/
 .navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /* background-color: #272838; */
   position: absolute;
-  top: 2.5%;
-  width:100%;
+  top: 2.5vh;
+  left:61vw;
+}
+
+.nav-geometry {
+  position: absolute;
+  top: 12vh;
+  left: 0;
+  display: flex;
 }
 
 #red-line {
   position: absolute;
-  display: flex;
   background: var(--my-red);
-  width: 120px;
-  height:10px;
-  top: 12%;
-  left: 83%;
+  width: 11vw;
+  height:1.3vh;
   z-index: 1;
+  left: 83vw;
 }
 
 #blue-line {
   position: absolute;
-  display: flex;
   background: var(--my-blue);
-  width: 300px;
-  height:10px;
-  top: 12%;
-  left: 40%;
+  width: 30vw;
+  height:1.3vh;
   z-index: 1;
+  left: 38vw; 
 }
 
 li {
@@ -233,13 +238,14 @@ li a {
   flex-direction: column;
   padding: 0;
   margin: 0;
-  top: 25vh;
+  top: 19vh;
   left: 55vw;
 }
 
 #title {
   position: relative;
-  transform: translateY(-180%);
+  /*transform: translateY(-180%);*/
+  top: -5vh;
   left: 3%;
   font-size: 20px;
   color: var(--my-grey);
@@ -248,6 +254,29 @@ li a {
     animation: 6s ease 0s normal forwards 1 fadein;
 }
 
+.bot-button {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  left: 3%;
+  top: -1vh;
+  -webkit-animation: 6s ease 0s normal forwards 1 fadein;
+  animation: 6s ease 0s normal forwards 1 fadein;
+}
+
+
+#learn-more {
+  background-color: var(--my-red); 
+  border: 2px solid var(--my-red);
+  color: white;
+}
 @keyframes fadein{
     0% { opacity:0; }
     66% { opacity:0; }
@@ -259,6 +288,25 @@ li a {
     66% { opacity:0; }
     100% { opacity:1; }
 }
+
+#learn-more:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
+#contact-me {
+  background-color: white; 
+  border: 2px solid var(--my-red);
+  color: var(--my-red);
+}
+
+#contact-me:hover {
+  opacity: .7;
+  cursor: pointer;
+
+}
+
+
 
 svg.intro {
   /*background: linear-gradient(135deg, #aa3bb1, #582a7e);*/
