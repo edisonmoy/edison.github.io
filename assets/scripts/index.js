@@ -21,13 +21,13 @@
         	nav_items[i].style.color = grey;
         }
         for (var i = 0; i < stroke1.length; i++) {
-        	stroke1[i].style.stroke = blue;
+        	stroke1[i].style.stroke = red;
         }
         for (var i = 0; i < stroke1.length; i++) {
-        	stroke2[i].style.stroke = red;
+        	stroke2[i].style.stroke = blue;
         }
         for (var i = 0; i < stroke1.length; i++) {
-        	stroke3[i].style.stroke = blue;
+        	stroke3[i].style.stroke = red;
         }
         for (var i = 0; i < social.length; i++) {
         	social[i].style.background = red;
@@ -43,13 +43,13 @@
         	nav_items[i].style.color = grey;
         }
         for (var i = 0; i < stroke1.length; i++) {
-        	stroke1[i].style.stroke = blue;
+        	stroke1[i].style.stroke = grey;
         }
         for (var i = 0; i < stroke1.length; i++) {
-        	stroke2[i].style.stroke = grey;
+        	stroke2[i].style.stroke = blue;
         }
         for (var i = 0; i < stroke1.length; i++) {
-        	stroke3[i].style.stroke = blue;
+        	stroke3[i].style.stroke = grey;
         }
         for (var i = 0; i < social.length; i++) {
         	social[i].style.background = blue;
@@ -80,14 +80,14 @@
         	nav_items[i].style.color = grey;
         }
         for (var i = 0; i < stroke1.length; i++) {
-        	stroke1[i].style.stroke = blue;
+        	stroke1[i].style.stroke = red;
         }
         for (var i = 0; i < stroke1.length; i++) {
-        	stroke2[i].style.stroke = red;
+        	stroke2[i].style.stroke = blue;
         }
         for (var i = 0; i < stroke1.length; i++) {
-        	stroke3[i].style.stroke = blue;
-        } 
+        	stroke3[i].style.stroke = red;
+        }
         for (var i = 0; i < social.length; i++) {
         	social[i].style.background = red;
         }
@@ -135,17 +135,17 @@
     var social = document.getElementsByClassName("fa");
 
 	if(back.style.background === "rgb(65, 115, 86)"){
-        // for (var i = 0; i < nav_items.length; i++) {
-        // 	nav_items[i].style.color = grey;
-        // }
-        for (var i = 0; i < stroke1.length; i++) {
-        	stroke1[i].style.stroke = blue;
+        for (var i = 0; i < nav_items.length; i++) {
+        	nav_items[i].style.color = grey;
         }
         for (var i = 0; i < stroke1.length; i++) {
-        	stroke2[i].style.stroke = red;
+        	stroke1[i].style.stroke = red;
         }
         for (var i = 0; i < stroke1.length; i++) {
-        	stroke3[i].style.stroke = blue;
+        	stroke2[i].style.stroke = blue;
+        }
+        for (var i = 0; i < stroke1.length; i++) {
+        	stroke3[i].style.stroke = red;
         }
         for (var i = 0; i < social.length; i++) {
         	social[i].style.background = red;
@@ -158,17 +158,17 @@
         nav_hover.style.color = blue; //some reason need this line or else buggy
 
     }else{
-        // for (var i = 0; i < nav_items.length; i++) {
-        // 	nav_items[i].style.color = red;
-        // }
-        for (var i = 0; i < stroke1.length; i++) {
-        	stroke1[i].style.stroke = blue;
+        for (var i = 0; i < nav_items.length; i++) {
+        	nav_items[i].style.color = grey;
         }
         for (var i = 0; i < stroke1.length; i++) {
-        	stroke2[i].style.stroke = red;
+        	stroke1[i].style.stroke = red;
         }
         for (var i = 0; i < stroke1.length; i++) {
-        	stroke3[i].style.stroke = blue;
+        	stroke2[i].style.stroke = blue;
+        }
+        for (var i = 0; i < stroke1.length; i++) {
+        	stroke3[i].style.stroke = red;
         }
         for (var i = 0; i < social.length; i++) {
         	social[i].style.background = red;

@@ -14,14 +14,6 @@
   background: white;
 }
 
-.content{
-  padding: 0;
-  margin: 0;
-}
-
-
-
-
 
 .navbar {
   list-style-type: none;
@@ -60,7 +52,6 @@ li {
   position: relative;
   float: right;
   right: 1%;
-  /*color: var(--my-grey);*/
 }
 
 li a {
@@ -76,6 +67,7 @@ li a {
 .nav-item:hover {
   cursor: pointer;
   color: var(--my-red);
+  z-index: 1;
 }
 
 
@@ -89,7 +81,7 @@ li a {
   top:15%;
   left:13%;
   z-index: 0;
-  justify-content: center;
+  justify-toprightcorner: center;
   align-items: center;
 }
 
@@ -138,17 +130,116 @@ li a {
   z-index: 1;
 }
 
-.footer {
-  position: relative;
-  display: flex;
-  top: 84vh;
+.home-link {
+  position: absolute;
+  top: 6vh;
   left: 10vh;
 }
 
-.name {
+.center {
+  display: flex;
+  top: 15vh;
   position: relative;
+  padding: 0;
+  justify-toprightcorner: center;
+}
+
+#selfie {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    margin: 0;
+    padding: 3%;
+}
+
+  #boxy {
+    position: relative;
+    display: flex;
+    height: 66vh;
+    width: 40vw;
+    flex-direction: column;
+    /*border:solid;*/
+  }
+
+  #toprightcorner {
+    position: absolute;
+    left: 85%;
+    top: 0;
+    height: 8%;
+    width: 8%;
+    border: solid;
+    border-width: 6px;
+    border-color: var(--my-blue);
+    -webkit-animation: 2s ease 0s normal forwards 1 fadein;
+    animation: 2s ease 0s normal forwards 1 fadein;
+  }
+
+
+   #toprightwhite {
+    position: absolute;
+    left: 74.4%;
+    top: 1.13%;
+    height: 19%;
+    width: 19.7%;
+    background: white;
+    border-radius: 50%;
+  }
+
+  #bottomleftcorner {
+    position: absolute;
+    left: 0;
+    top:90%;
+    height: 8%;
+    width: 8%;
+    border: solid;
+    border-width: 6px;
+    border-color: var(--my-red);
+    -webkit-animation: 2s ease 0s normal forwards 1 fadein;
+    animation: 2s ease 0s normal forwards 1 fadein;
+  }
+
+  #bottomleftwhite {
+    position: absolute;
+    left: 1%;
+    top:80.2%;
+    height: 19%;
+    width: 19.7%;
+    background: white;
+    border-radius: 50%;
+
+  }
+    
+
+@keyframes fadein{
+    0% { opacity:0; }
+    33% { opacity: 0 }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    33% { opacity: 0 }
+    100% { opacity:1; }
+}
+
+
+#info {
+  position: relative;
+  left: 0%;
+  top: 50%;
+  text-align: center;
+
+}
+
+#name {
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  left: 7vw;
+  overflow: hidden;
   font-size: 40px;
-  z-index: 9;
+  text-decoration: none;
   color: var(--my-grey);
 }
 
