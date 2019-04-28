@@ -22,8 +22,8 @@
   overflow: hidden;
   /* background-color: #272838; */
   position: absolute;
-  top: 2.5%;
-  width:100%;
+  top: 2.5vh;
+  left:61vw;
 }
 
 #red-line {
@@ -88,10 +88,6 @@ li a {
 .circles:hover {
   cursor: pointer;
   opacity: .8;
-}
-
-#color-circle {
-
 }
 
 #red-circle {
@@ -175,53 +171,6 @@ li a {
     animation: 2s ease 0s normal forwards 1 fadein;
 
   }
-
-  #toprightcorner {
-    position: absolute;
-    left: 85%;
-    top: 0;
-    height: 8%;
-    width: 8%;
-    border: solid;
-    border-width: 6px;
-    border-color: var(--my-blue);
-    -webkit-animation: 2s ease 0s normal forwards 1 fadein;
-    animation: 2s ease 0s normal forwards 1 fadein;
-  }
-
-
-   #toprightwhite {
-    position: absolute;
-    left: 74.4%;
-    top: 1.13%;
-    height: 19%;
-    width: 19.7%;
-    background: white;
-    border-radius: 50%;
-  }
-
-  #bottomleftcorner {
-    position: absolute;
-    left: 0;
-    top:90%;
-    height: 8%;
-    width: 8%;
-    border: solid;
-    border-width: 6px;
-    border-color: var(--my-red);
-    -webkit-animation: 2s ease 0s normal forwards 1 fadein;
-    animation: 2s ease 0s normal forwards 1 fadein;
-  }
-
-  #bottomleftwhite {
-    position: absolute;
-    left: 1%;
-    top:80.2%;
-    height: 19%;
-    width: 19.7%;
-    background: white;
-    border-radius: 50%;
-
   }
     
 
