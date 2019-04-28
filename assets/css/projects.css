@@ -392,8 +392,8 @@ li a {
 
 
 
-
 /* Media Queries */
+/*
 @media only screen and (min-width: 1920px) {
   body {
     font-size: 22px;
@@ -555,3 +555,4 @@ li a {
     margin: 1.7em auto;
   }
 }
+*/
