@@ -9,34 +9,28 @@
     var right_line = document.getElementById("red-line");
     var left_line = document.getElementById("blue-line");
     var nav_items = document.getElementsByClassName("nav-item");
-    var whiteout = document.getElementsByClassName("whiteout");
-
+    var info = document.getElementById("info");
+    var meet = document.getElementById("meet");
 
 	if(back.style.background === "rgb(154, 103, 166)"){
         for (var i = 0; i < nav_items.length; i++) {
         	nav_items[i].style.color = dark;
         }
-        for (var i = 0; i < whiteout.length; i++) {
-            whiteout[i].style.background = "white";
-        }
         back.style.background = "white";
+        info.style.color = dark;
+        meet.style.color = blue;
         left_line.style.background = blue;
         right_line.style.background = red;
-        the_overlay_color.style.zIndex = 1;
-        the_overlay.style.zIndex = 3;
 
     }else{
         for (var i = 0; i < nav_items.length; i++) {
         	nav_items[i].style.color = dark;
         }
-        for (var i = 0; i < whiteout.length; i++) {
-            whiteout[i].style.background = red;
-        }
         back.style.background = red;
+        info.style.color = dark;
+        meet.style.color = blue;
         left_line.style.background = blue;
         right_line.style.background = dark;
-        the_overlay_color.style.zIndex = 1;
-        the_overlay.style.zIndex = 3;
     }
   });
 
@@ -45,36 +39,30 @@
     var right_line = document.getElementById("red-line");
     var left_line = document.getElementById("blue-line");
     var nav_items = document.getElementsByClassName("nav-item");
-    var whiteout = document.getElementsByClassName("whiteout");
-
+    var info = document.getElementById("info");
+    var meet = document.getElementById("meet");
 
 
 	if(back.style.background === "rgb(121, 188, 236)"){
         for (var i = 0; i < nav_items.length; i++) {
         	nav_items[i].style.color = dark;
         }
-        for (var i = 0; i < whiteout.length; i++) {
-            whiteout[i].style.background = "white";
-        }
         back.style.background = "white";
+        info.style.color = dark;
+        meet.style.color = blue;
         left_line.style.background = blue;
         right_line.style.background = red;
-        the_overlay_color.style.zIndex = 1;
-        the_overlay.style.zIndex = 3;
 
     }else{
         
         for (var i = 0; i < nav_items.length; i++) {
         	nav_items[i].style.color = dark;
         }
-        for (var i = 0; i < whiteout.length; i++) {
-            whiteout[i].style.background = blue;
-        }
         back.style.background = blue;
+        info.style.color = dark;
+        meet.style.color = red;
         left_line.style.background = dark;
         right_line.style.background = red;
-        the_overlay_color.style.zIndex = 1;
-        the_overlay.style.zIndex = 3;  
     }
   });
 
@@ -83,35 +71,30 @@
     var right_line = document.getElementById("red-line");
     var left_line = document.getElementById("blue-line");
     var nav_items = document.getElementsByClassName("nav-item");
-    var whiteout = document.getElementsByClassName("whiteout");
+    var info = document.getElementById("info");
+    var meet = document.getElementById("meet");
 
 	if(back.style.background === "rgb(27, 38, 79)"){
         for (var i = 0; i < nav_items.length; i++) {
         	nav_items[i].style.color = dark;
         }
-        for (var i = 0; i < whiteout.length; i++) {
-            whiteout[i].style.background = "white";
-        }
         back.style.background = "white";
+        info.style.color = dark;
+        meet.style.color = blue;
         left_line.style.background = blue;
         right_line.style.background = red;
-        the_overlay_color.style.zIndex = 1;
-   		the_overlay.style.zIndex = 3;
         nav_hover.style.color = blue; //some reason need this line or else buggy
 
     }else{
         for (var i = 0; i < nav_items.length; i++) {
         	nav_items[i].style.color = dark;
         }
-        for (var i = 0; i < whiteout.length; i++) {
-            whiteout[i].style.background = dark;
-        }
     }
     back.style.background = dark;
+    info.style.color = red;
+    meet.style.color = blue;
     left_line.style.background = blue;
     right_line.style.background = red;
-    the_overlay_color.style.zIndex = 3;
-    the_overlay.style.zIndex = 1;
     });
 
   

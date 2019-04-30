@@ -191,8 +191,11 @@ li a {
   position: absolute;
   width: 80%;
   left: 3%;
-  top: 50%;
+  top: 20%;
   text-align: center;
+  line-height: 1.4em;
+  font-style: 2em;
+  color: var(--my-dark);
 
 }
 
@@ -213,6 +216,40 @@ li a {
 .navbar {
   transform: translateY(8%) translateX(-4%);
 
+}
+
+
+#meet {
+  color: var(--my-blue);
+}
+
+.line-1{
+    position: relative;
+    top: 100%;  
+    left: -5%;
+    width: 9em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    /*color: var(--my-blue);*/
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    /*transform: translateY(-50%);    */
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 1.8s steps(18) 1s 1 normal both,
+             blinkTextCursor 500ms steps(18) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 9em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: var(--my-red);}
+  to{border-right-color: transparent;}
 }
 
 
