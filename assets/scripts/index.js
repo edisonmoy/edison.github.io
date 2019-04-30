@@ -1,7 +1,7 @@
 
-	var red = "#f5b089";
-	var blue = "#d1e8f8";
-	var grey = "#417356";
+	var red = "#9A67A6";
+	var blue = "#79bcec";
+	var dark = "#1B264F";
 
 
 	$("#red-circle").click(function() {
@@ -16,9 +16,9 @@
     var the_overlay = document.getElementById("overlay");
     var social = document.getElementsByClassName("fa");
 
-	if(back.style.background === "rgb(245, 176, 137)"){
+	if(back.style.background === "rgb(154, 103, 166)"){
         for (var i = 0; i < nav_items.length; i++) {
-        	nav_items[i].style.color = grey;
+        	nav_items[i].style.color = dark;
         }
         for (var i = 0; i < stroke1.length; i++) {
         	stroke1[i].style.stroke = red;
@@ -40,23 +40,23 @@
 
     }else{
         for (var i = 0; i < nav_items.length; i++) {
-        	nav_items[i].style.color = grey;
+        	nav_items[i].style.color = dark;
         }
         for (var i = 0; i < stroke1.length; i++) {
-        	stroke1[i].style.stroke = grey;
+        	stroke1[i].style.stroke = dark;
         }
         for (var i = 0; i < stroke1.length; i++) {
         	stroke2[i].style.stroke = blue;
         }
         for (var i = 0; i < stroke1.length; i++) {
-        	stroke3[i].style.stroke = grey;
+        	stroke3[i].style.stroke = dark;
         }
         for (var i = 0; i < social.length; i++) {
         	social[i].style.background = blue;
         }
         back.style.background = red;
         left_line.style.background = blue;
-        right_line.style.background = grey;
+        right_line.style.background = dark;
         the_overlay_color.style.zIndex = 1;
         the_overlay.style.zIndex = 3;
     }
@@ -75,9 +75,9 @@
    	var social = document.getElementsByClassName("fa");
 
 
-	if(back.style.background === "rgb(209, 232, 248)"){
+	if(back.style.background === "rgb(121, 188, 236)"){
         for (var i = 0; i < nav_items.length; i++) {
-        	nav_items[i].style.color = grey;
+        	nav_items[i].style.color = dark;
         }
         for (var i = 0; i < stroke1.length; i++) {
         	stroke1[i].style.stroke = red;
@@ -100,13 +100,13 @@
     }else{
         
         for (var i = 0; i < nav_items.length; i++) {
-        	nav_items[i].style.color = grey;
+        	nav_items[i].style.color = dark;
         }
         for (var i = 0; i < stroke1.length; i++) {
         	stroke1[i].style.stroke = red;
         }
         for (var i = 0; i < stroke1.length; i++) {
-        	stroke2[i].style.stroke = grey;
+        	stroke2[i].style.stroke = dark;
         }
         for (var i = 0; i < stroke1.length; i++) {
         	stroke3[i].style.stroke = red;
@@ -115,14 +115,14 @@
         	social[i].style.background = red;
         }
         back.style.background = blue;
-        left_line.style.background = grey;
+        left_line.style.background = dark;
         right_line.style.background = red;
         the_overlay_color.style.zIndex = 1;
         the_overlay.style.zIndex = 3;  
     }
   });
 
-	$("#grey-circle").click(function() {
+	$("#dark-circle").click(function() {
     var back = document.getElementById("page");
     var right_line = document.getElementById("red-line");
     var left_line = document.getElementById("blue-line");
@@ -134,9 +134,9 @@
     var the_overlay = document.getElementById("overlay");
     var social = document.getElementsByClassName("fa");
 
-	if(back.style.background === "rgb(65, 115, 86)"){
+	if(back.style.background === "rgb(27, 38, 79)"){
         for (var i = 0; i < nav_items.length; i++) {
-        	nav_items[i].style.color = grey;
+        	nav_items[i].style.color = dark;
         }
         for (var i = 0; i < stroke1.length; i++) {
         	stroke1[i].style.stroke = red;
@@ -159,7 +159,7 @@
 
     }else{
         for (var i = 0; i < nav_items.length; i++) {
-        	nav_items[i].style.color = grey;
+        	nav_items[i].style.color = dark;
         }
         for (var i = 0; i < stroke1.length; i++) {
         	stroke1[i].style.stroke = red;
@@ -174,7 +174,7 @@
         	social[i].style.background = red;
         }
     }
-    back.style.background = grey;
+    back.style.background = dark;
     left_line.style.background = blue;
     right_line.style.background = red;
     the_overlay_color.style.zIndex = 3;

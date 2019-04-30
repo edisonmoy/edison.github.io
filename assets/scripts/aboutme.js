@@ -1,7 +1,7 @@
 
-	var red = "#f5b089";
-	var blue = "#d1e8f8";
-	var grey = "#417356";
+	var red = "#9A67A6";
+    var blue = "#79bcec";
+    var dark = "#1B264F";
 
 
 	$("#red-circle").click(function() {
@@ -12,9 +12,9 @@
     var whiteout = document.getElementsByClassName("whiteout");
 
 
-	if(back.style.background === "rgb(245, 176, 137)"){
+	if(back.style.background === "rgb(154, 103, 166)"){
         for (var i = 0; i < nav_items.length; i++) {
-        	nav_items[i].style.color = grey;
+        	nav_items[i].style.color = dark;
         }
         for (var i = 0; i < whiteout.length; i++) {
             whiteout[i].style.background = "white";
@@ -27,14 +27,14 @@
 
     }else{
         for (var i = 0; i < nav_items.length; i++) {
-        	nav_items[i].style.color = grey;
+        	nav_items[i].style.color = dark;
         }
         for (var i = 0; i < whiteout.length; i++) {
             whiteout[i].style.background = red;
         }
         back.style.background = red;
         left_line.style.background = blue;
-        right_line.style.background = grey;
+        right_line.style.background = dark;
         the_overlay_color.style.zIndex = 1;
         the_overlay.style.zIndex = 3;
     }
@@ -49,9 +49,9 @@
 
 
 
-	if(back.style.background === "rgb(209, 232, 248)"){
+	if(back.style.background === "rgb(121, 188, 236)"){
         for (var i = 0; i < nav_items.length; i++) {
-        	nav_items[i].style.color = grey;
+        	nav_items[i].style.color = dark;
         }
         for (var i = 0; i < whiteout.length; i++) {
             whiteout[i].style.background = "white";
@@ -65,29 +65,29 @@
     }else{
         
         for (var i = 0; i < nav_items.length; i++) {
-        	nav_items[i].style.color = grey;
+        	nav_items[i].style.color = dark;
         }
         for (var i = 0; i < whiteout.length; i++) {
             whiteout[i].style.background = blue;
         }
         back.style.background = blue;
-        left_line.style.background = grey;
+        left_line.style.background = dark;
         right_line.style.background = red;
         the_overlay_color.style.zIndex = 1;
         the_overlay.style.zIndex = 3;  
     }
   });
 
-	$("#grey-circle").click(function() {
+	$("#dark-circle").click(function() {
     var back = document.getElementById("page");
     var right_line = document.getElementById("red-line");
     var left_line = document.getElementById("blue-line");
     var nav_items = document.getElementsByClassName("nav-item");
     var whiteout = document.getElementsByClassName("whiteout");
 
-	if(back.style.background === "rgb(65, 115, 86)"){
+	if(back.style.background === "rgb(27, 38, 79)"){
         for (var i = 0; i < nav_items.length; i++) {
-        	nav_items[i].style.color = grey;
+        	nav_items[i].style.color = dark;
         }
         for (var i = 0; i < whiteout.length; i++) {
             whiteout[i].style.background = "white";
@@ -101,13 +101,13 @@
 
     }else{
         for (var i = 0; i < nav_items.length; i++) {
-        	nav_items[i].style.color = grey;
+        	nav_items[i].style.color = dark;
         }
         for (var i = 0; i < whiteout.length; i++) {
-            whiteout[i].style.background = grey;
+            whiteout[i].style.background = dark;
         }
     }
-    back.style.background = grey;
+    back.style.background = dark;
     left_line.style.background = blue;
     right_line.style.background = red;
     the_overlay_color.style.zIndex = 3;

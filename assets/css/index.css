@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 :root {
-  --my-red: #f5b089;
-  --my-blue: #d1e8f8;
-  --my-grey: #417356;
+  --my-red: #9A67A6;
+  --my-blue: #79bcec;
+  --my-dark: #1B264F;
 }
 
 #page {
@@ -107,12 +107,12 @@ li {
   position: relative;
   float: right;
   right: 1%;
-  /*color: var(--my-grey);*/
+  /*color: var(--my-dark);*/
 }
 
 li a {
   display: block;
-  color: var(--my-grey);
+  color: var(--my-dark);
   text-align: center;
   padding: 20px 22px;
   text-decoration: none;
@@ -201,11 +201,11 @@ li a {
   left: 83%;
   z-index: 3;
 }
-#grey-circle {
+#dark-circle {
   position: absolute;
   display: flex;
   border-radius: 50%;
-  background-color: var(--my-grey);
+  background-color: var(--my-dark);
   width: 100px;
   height:100px;
   top: 80%;
@@ -222,7 +222,7 @@ li a {
   transform: translateX(80%) translateY(-70%);
   font-size: 60px;
   z-index: 9;
-  color: var(--my-grey);
+  color: var(--my-dark);
 }
 
 
@@ -248,7 +248,7 @@ li a {
   top: -5vh;
   left: 3%;
   font-size: 20px;
-  color: var(--my-grey);
+  color: var(--my-dark);
 
     -webkit-animation: 6s ease 0s normal forwards 1 fadein;
     animation: 6s ease 0s normal forwards 1 fadein;
@@ -333,7 +333,7 @@ svg.intro.go .text {
 }
 svg.intro.go .text-stroke {
   fill: none;
-  stroke: var(--my-grey);
+  stroke: var(--my-dark);
   stroke-width: 2.8px;
   stroke-dashoffset: -300;
   stroke-dasharray: 300;
