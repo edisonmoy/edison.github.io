@@ -10,6 +10,8 @@
     var left_line = document.getElementById("blue-line");
     var nav_items = document.getElementsByClassName("nav-item");
     var social = document.getElementsByClassName("fa");
+    var contact = document.getElementById("contact-info");
+    var resume = document.getElementById("resume");
 
     if(back.style.background === "rgb(154, 103, 166)"){
         for (var i = 0; i < nav_items.length; i++) {
@@ -19,6 +21,8 @@
             social[i].style.background = red;
         }
         back.style.background = "white";
+        contact.style.color = dark;
+        resume.style.color = dark;
         left_line.style.background = blue;
         right_line.style.background = red;
 
@@ -30,6 +34,8 @@
             social[i].style.background = blue;
         }
         back.style.background = red;
+        contact.style.color = dark;
+        resume.style.color = dark;
         left_line.style.background = blue;
         right_line.style.background = dark;
     }
@@ -41,6 +47,8 @@
     var left_line = document.getElementById("blue-line");
     var nav_items = document.getElementsByClassName("nav-item");
     var social = document.getElementsByClassName("fa");
+    var contact = document.getElementById("contact-info");
+    var resume = document.getElementById("resume");
 
 
     if(back.style.background === "rgb(121, 188, 236)"){
@@ -51,6 +59,8 @@
             social[i].style.background = red;
         }
         back.style.background = "white";
+        contact.style.color = dark;
+        resume.style.color = dark;
         left_line.style.background = blue;
         right_line.style.background = red;
 
@@ -63,6 +73,8 @@
             social[i].style.background = red;
         }
         back.style.background = blue;
+        contact.style.color = dark;
+        resume.style.color = dark;
         left_line.style.background = dark;
         right_line.style.background = red; 
     }
@@ -74,6 +86,8 @@
     var left_line = document.getElementById("blue-line");
     var nav_items = document.getElementsByClassName("nav-item");
     var social = document.getElementsByClassName("fa");
+    var contact = document.getElementById("contact-info");
+    var resume = document.getElementById("resume");
 
     if(back.style.background === "rgb(27, 38, 79)"){
         for (var i = 0; i < nav_items.length; i++) {
@@ -83,6 +97,8 @@
             social[i].style.background = red;
         }
         back.style.background = "white";
+        contact.style.color = dark;
+        resume.style.color = dark;
         left_line.style.background = blue;
         right_line.style.background = red;
         nav_hover.style.color = blue; //some reason need this line or else buggy
@@ -95,9 +111,11 @@
             social[i].style.background = red;
         }
     }
-    back.style.background = dark;
-    left_line.style.background = blue;
-    right_line.style.background = red;
+        back.style.background = dark;
+        contact.style.color = red;
+        resume.style.color = red;
+        left_line.style.background = blue;
+        right_line.style.background = red;
     });
 
 $(function() {

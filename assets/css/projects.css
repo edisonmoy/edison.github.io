@@ -387,8 +387,11 @@ li a {
 
 .info {
   position: relative;
-  top: -20%;
+  top: -20vh;
   padding: 15%;
   text-align: center;
+  line-height: 1.5em;
+  font-size: 1.3em;
+  color: var(--my-dark);
 }
 

@@ -1,5 +1,5 @@
 
-	var red = "#9A67A6";
+    var red = "#9A67A6";
     var blue = "#79bcec";
     var dark = "#1B264F";
 
@@ -127,6 +127,8 @@
     clearInterval(bannerTimer);
     bannerTimer = setInterval(bannerSwitcher, 5000)
   });
+
+
 
 
 
