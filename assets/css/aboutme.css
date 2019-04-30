@@ -218,7 +218,6 @@ li a {
 
 }
 
-
 #meet {
   color: var(--my-blue);
 }
@@ -229,16 +228,13 @@ li a {
     left: -5%;
     width: 9em;
     margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
+    border-right: 2px solid var(--my-red);
     font-size: 180%;
-    /*color: var(--my-blue);*/
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    /*transform: translateY(-50%);    */
 }
 
-/* Animation */
 .anim-typewriter{
   animation: typewriter 1.8s steps(18) 1s 1 normal both,
              blinkTextCursor 500ms steps(18) infinite normal;
