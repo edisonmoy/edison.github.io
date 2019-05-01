@@ -366,13 +366,15 @@ li a {
   border-color: var(--my-blue);
   padding: 4vh;
   border-radius: 5%;
+  justify-content: left;
   align-items: center;
 }
 
 .descript {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /*justify-content: ;*/
+  /*transform: translateX(3vw);*/
 
 }
 
