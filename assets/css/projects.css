@@ -395,5 +395,6 @@ li a {
   line-height: 1.5em;
   font-size: 1.3em;
   color: var(--my-dark);
+  /*width: 30%;*/
 }
 
