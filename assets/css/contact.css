@@ -215,7 +215,12 @@ li a {
     color: var(--my-dark);
 
   }
-    
+
+  #github {
+    /*text-decoration: none;*/
+    color: var(--my-dark);
+
+  }
 
 @keyframes fadein{
     0% { opacity:0; }
@@ -240,8 +245,3 @@ li a {
   transform: translateY(8%) translateX(-4%);
 
 }
-
-
-
-
-
