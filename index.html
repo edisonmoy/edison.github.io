@@ -1,116 +1,498 @@
- <!DOCTYPE html>
-<html lang="en" >
-  <head>
-    <meta charset="UTF-8">
-    <title>Edison Moy</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+<!DOCTYPE html>
+<html lang="en" class="no-js">
 
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<head>
+   <!-- Meta -->
+   <title>Michelle Aiko - Portfolio</title>
+   <meta charset="UTF-8">
+   <meta name="description" content="Free HTML template">
+   <meta name="keywords" content="HTML, template, free">
+   <meta name="author" content="Nicola Tolin">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Styles -->
+   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+   <link href="vendor/animate/animate.css" rel="stylesheet" type="text/css" />
+   <link href="css/style.css" rel="stylesheet" type="text/css" />
+   <link rel="icon" href="img/favicon.png">
+</head>
 
-  </head>
-  <body id="page">
-
- 
-    
-    <div class="content">
-    <!--    <img src="assets/img/background.jpg" alt="Home Background"
-      style="width:1366px;height:768px" >
- -->
-
-      <div id="head-bar">
-        <div id="navigate">
-          <ul class="navbar">
-          <li id="contact" ><a href="contact.html" class="nav-item">contact</a></li>
-          <li id="fun" ><a href="fun.html" class="nav-item">fun</a></li>
-          <li id="projects"><a href="projects.html" class="nav-item">projects</a></li>
-          <li id="aboutme"><a href="aboutme.html" class="nav-item">about me</a></li>
-        </ul>
-        </div>
-        
-        <div class="nav-geometry">
-          <div id="blue-line"></div>
-          <div id="red-line"></div>
-        </div>
+<body>
+   <!-- Navbar -->
+   <div class="modal hide" id="birthdayModal">
+      <div class="modal-header">
+         <h3>Surprise ö</h3>
       </div>
-     
+      <div class="modal-body">
+         <div>
+            <p>Happy birthday, Michelle! Here is one of the first photos we have together. <br /><br />
+               I made some changes to your art portfolio website. I hope you like it! <br /> <br />
+               Redeem ticket below!
+            </p>
+            <button id="birthdayModalClose">
+               <img src="img/ticket.png" alt="Ticket for birthday">
+            </button>
+         </div>
+         <img class="chicago-img" src="img/chicago.jpg" alt="Michelle and Edison in Chicago." />
+      </div>
+   </div>
 
-      <div class="prof-container">
-        <img src="assets/img/outline.png" id="edison" width="25%"> 
-        <img src="assets/img/overlay.png" id="overlay" width="25%">
-        <img src="assets/img/overlay-color.png" id="overlay-color" width="25%">
+   <div class="surprise-container">
+      <audio id="happy-birthday-sound" src="img/happybirthday.mp3" type="audio/mpeg"></audio>
+      <div id="michelle-dance-container">
+         <div class="m-row"><img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+         </div>
+         <div class="m-row"><img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+         </div>
+         <div class="m-row"><img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+         </div>
+         <div class="m-row"><img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+         </div>
+         <div class="m-row"><img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+         </div>
+         <div class="m-row"><img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+         </div>
+         <div class="m-row"><img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+         </div>
+         <div class="m-row"><img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+         </div>
+         <div class="m-row"><img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+            <img src="img/michlle_dance.jpeg" />
+         </div>
+
+      </div>
+   </div>
+
+
+
+   <div class="navigation container-fluid">
+      <div class="row justify-content-md-center ">
+         <nav class="navbar navbar-default menu">
+            <ul>
+               <li class="menu-link"> <a href="about.html">About Me</a></li>
+               <li>
+                  <a class="navbar-brand" href="index.html">
+                     <h1>MICHELLE AIKO HIGA</h1>
+                  </a>
+               </li>
+               <li class="menu-link"> <a href="story.html">My Work</a></li>
+            </ul>
+         </nav>
+      </div>
+   </div>
+
+   <!-- Gallery -->
+   <div class="scrollblock">
+      <div class="container-fluid pt-10">
+         <div class="row justify-content-md-center ">
+            <div class="col-md-10 col-sm-12">
+               <div class="card-columns">
+                  <div class="card card-hover h-100">
+                     <div class="card-body">
+                        <a href="index.html">
+                           <img class="card-img-top" src="img/japanese1.jpg" alt="Card image cap">
+                           <div class="reveal h-100 p-2 d-flex ">
+                              <div class="w-100 align-self-center">
+                                 <p>Ink and watercolor on paper</p>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="card card-hover h-100">
+                     <div class="card-body">
+                        <a href="index.html">
+                           <img class="card-img-top" src="img/mountain-acryllic.jpeg" alt="Card image cap">
+                           <div class="reveal h-100 p-2 d-flex ">
+                              <div class="w-100 align-self-center">
+                                 <p>Acrylic on canvas</p>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="card card-hover h-100">
+                     <div class="card-body">
+                        <a href="index.html">
+                           <img class="card-img-top" src="img/phoenix.jpg" alt="Card image cap">
+                           <div class="reveal h-100 p-2 d-flex ">
+                              <div class="w-100 align-self-center">
+                                 <p>Ink on paper</p>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="card card-hover h-100">
+                     <div class="card-body">
+                        <a href="index.html">
+                           <img class="card-img-top" src="img/watercolor-postcards.jpeg" alt="Card image cap">
+                           <div class="reveal h-100 p-2 d-flex ">
+                              <div class="w-100 align-self-center">
+                                 <p>Watercolor on paper</p>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="card card-hover h-100">
+                     <div class="card-body">
+                        <a href="index.html">
+                           <img class="card-img-top" src="img/formulablue.jpg" alt="Card image cap">
+                           <div class="reveal h-100 p-2 d-flex ">
+                              <div class="w-100 align-self-center">
+                                 <p>Digital</p>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="card card-hover h-100">
+                     <div class="card-body">
+                        <a href="index.html">
+                           <img class="card-img-top" src="img/beach-sketch.jpeg" alt="Card image cap">
+                           <div class="reveal h-100 p-2 d-flex ">
+                              <div class="w-100 align-self-center">
+                                 <p>Ink on paper</p>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="card card-hover h-100">
+                     <div class="card-body">
+                        <a href="index.html">
+                           <img class="card-img-top" src="img/parcels.jpeg" alt="Card image cap">
+                           <div class="reveal h-100 p-2 d-flex ">
+                              <div class="w-100 align-self-center">
+                                 <p>Digital</p>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="card card-hover h-100">
+                     <div class="card-body">
+                        <a href="index.html">
+                           <img class="card-img-top" src="img/sushi.jpeg" alt="Card image cap">
+                           <div class="reveal h-100 p-2 d-flex ">
+                              <div class="w-100 align-self-center">
+                                 <p>Digital</p>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="card card-hover h-100">
+                     <div class="card-body">
+                        <a href="index.html">
+                           <img class="card-img-top" src="img/edison-painting.jpeg" alt="Card image cap">
+                           <div class="reveal h-100 p-2 d-flex ">
+                              <div class="w-100 align-self-center">
+                                 <p>Ink and watercolor on paper</p>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- End Gallery -->
+   <!-- Footer -->
+   <div class="container-fluid footer ">
+      <div class="footer-row">
+         <div class="footer-img-container">
+            <img class="footer-item" src="img/footer.png" alt="footer image" />
+         </div>
+
+      </div>
+      <div class="footer-row">
+
+         <a class="footer-item" href="about.html">About Me</a>
+         <a class="footer-item" href="story.html">My Work</a>
+
+      </div>
+      <div class="footer-row">
+         <p class="footer-item">michelleehigaa@gmail.com</p>
+         <a class="footer-item" href="https://www.instagram.com/aik.oart/" target="_blank">
+            <img class="social-logo" src="img/instagram.png" alt="Instagram logo">
+         </a>
+
       </div>
 
-     
+   </div>
+   <!-- End Footer -->
+   <!-- Javascript -->
+   <script src=" vendor/jquery.min.js"></script>
+   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+   <!-- <script src="vendor/wow/wow.js"></script> -->
+   <script src="js/script.js"></script>
+   <script>
+      // new WOW().init();
+   </script>
+   <!-- End Javascript -->
+</body>
 
-
-      <div class="social">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <a href="https://www.facebook.com/edison.moy.3" class="fa fa-facebook"></a>
-        <a href="https://www.instagram.com/moysauce18/" class="fa fa-instagram"></a>
-        <a href="https://www.linkedin.com/in/edison-moy/" class="fa fa-linkedin"></a>
-      </div>
-
-      <div class="center">
-
-      </div>
-
-      <div id="color-circle">
-        <div id="red-circle" class = "circles"></div>
-        <div id="blue-circle" class = "circles"></div>
-        <div id="dark-circle" class = "circles"></div>
-      </div>
-
-
-      <div id="edison-title">
-        <div id="edison-chin">
-          <svg class="intro" viewbox="0 0 200 86">
-          <text text-anchor="start" x="10" y="30" class="text text-stroke" clip-path="url(#text1)">Edison</text>
-          <text text-anchor="start" x="10" y="50" class="text text-stroke" clip-path="url(#text2)">Chin</text>
-          <text text-anchor="start" x="10" y="70" class="text text-stroke" clip-path="url(#text3)">Moy</text>
-
-          <text text-anchor="start" x="10" y="30" class="text text-stroke text-stroke-2" clip-path="url(#text1)">Edison</text>
-          <text text-anchor="start" x="10" y="50" class="text text-stroke text-stroke-3" clip-path="url(#text2)">Chin</text>
-          <text text-anchor="start" x="10" y="70" class="text text-stroke text-stroke-4" clip-path="url(#text3)">Moy</text>
-
-          <defs>
-          <clipPath id="text1">
-          <text text-anchor="start" x="10" y="30" class="text">Edison</text>
-          </clipPath>
-          <clipPath id="text2">
-          <text text-anchor="start" x="10" y="50" class="text">Chin</text>
-          </clipPath>
-          <clipPath id="text3">
-          <text text-anchor="start" x="10" y="70" class="text">Moy</text>
-          </clipPath>
-
-          </defs
-          </svg>
-        </div>
-        <div id="title">
-          developer  •  designer
-        </div>
-
-        <div id="buttons">
-          <a href="aboutme.html" class="bot-button" id="learn-more">learn more</a>
-          <a  href="contact.html" class="bot-button" id="contact-me">contact me</a>
-        </div>
-      </div>
-
-
-    </div>
-
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-
-    <!-- <script src='https://code.jquery.com/jquery-1.11.3.min.js'></script> -->
-    <script type='text/javascript' src='assets/scripts/index.js'></script>
-  </body>
 </html>
-
-
-
-
-
-
-
-
-
