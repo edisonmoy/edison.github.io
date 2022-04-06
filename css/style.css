@@ -406,9 +406,9 @@ h2 {
 }
 
 .card-hover:hover img {
-    -webkit-filter: grayscale(10%);
+    -webkit-filter: grayscale(0%);
     /* Ch 23+, Saf 6.0+, BB 10.0+ */
-    filter: grayscale(10%);
+    filter: grayscale(0%);
     /* FF 35+ */
 }
 
@@ -425,6 +425,8 @@ h2 {
     height: 0;
     padding: 0;
     position: absolute;
+    opacity: 0;
+    background-color: black;
     top: 0;
     width: 100%;
     color: white;
@@ -435,6 +437,13 @@ h2 {
     visibility: visible;
     z-index: 10;
     position: absolute;
+    opacity: 0.4;
+    transition: opacity 1s ease;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    color: white;
 }
 
 @media (max-width: 767px) {
