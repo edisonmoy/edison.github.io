@@ -3,7 +3,7 @@
 
 <head>
    <!-- Meta -->
-   <title>Products</title>
+   <title>Michelle Aiko - FINE ART</title>
    <meta charset="UTF-8">
    <meta name="description" content="Free HTML template">
    <meta name="keywords" content="HTML, template, free">
@@ -12,59 +12,42 @@
    <!-- Styles -->
    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
    <link href="vendor/animate/animate.css" rel="stylesheet" type="text/css" />
-   <link href="css/style.css" rel="stylesheet" type="text/css" />
+   <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+   <link rel="icon" href="assets/img/favicon.png">
 </head>
 
 <body>
    <!-- Navbar -->
    <div class="navigation container-fluid">
       <div class="row justify-content-md-center ">
-         <div class="col-md-10 col-sm-12">
-            <nav class="navbar navbar-default">
-               <a class="navbar-brand" href="index.html">
-                  <img src="assets/img/logo-black.png" height="22" alt="Logo">
-               </a>
-               <div class="button_container" id="toggle">
-                  <span class="black top"></span>
-                  <span class="black middle"></span>
-                  <span class="black bottom"></span>
-               </div>
-               <div class="overlay" id="overlay">
-                  <nav class="overlay-menu">
-                     <ul>
-                        <li> <a href="about.html">About</a></li>
-                        <li> <a href="story.html">Story</a></li>
-                        <li> <a href="services.html">Services</a></li>
-                        <li> <a href="contacts.html">Contacts</a></li>
-                     </ul>
-                  </nav>
-               </div>
-            </nav>
-         </div>
+         <nav class="navbar navbar-default menu">
+            <ul>
+               <li class="menu-link"> <a href="about.html">About Me</a></li>
+
+               <li>
+                  <a class="navbar-brand" href="index.html">
+                     <h1>MICHELLE AIKO HIGA</h1>
+                  </a>
+               </li>
+               <li class="menu-link"> <a href="design.html">Design</a></li>
+               <li class="menu-link"> <a href="art.html">Fine Art</a></li>
+
+            </ul>
+         </nav>
+         <nav class="navbar mobile-menu ">
+            <a class="navbar-brand" href="index.html">
+               <h1>MICHELLE AIKO HIGA</h1>
+            </a>
+            <div>
+               <a class="menu-link" href="about.html">About Me</a>
+               <a class="menu-link" href="design.html">Design</a>
+               <a class="menu-link" href="art.html">Fine Art</a>
+            </div>
+         </nav>
       </div>
    </div>
    <!-- End Navbar -->
-   <!-- Times -->
-   <div class="container-fluid pb-5 times">
-      <div class="row">
-         <div class="col-md-8 offset-md-1 col-sm-12">
-            <h2>Donec rutrum congue leo eget malesuada lacinia eget consectetur sed, convallis at tellus in ipsum id
-               orci porta dapibus.
-            </h2>
-         </div>
-      </div>
-      <div class="row">
-         <div class="col-md-7 offset-md-1 col-sm-12">
-            <p class="pb-5 pt-5">
-               Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur non nulla sit amet nisl tempus
-               convallis quis ac lectus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
-               Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a
-               pellentesque nec, egestas non nisi.
-            </p>
-         </div>
-      </div>
-   </div>
-   <!-- End Times -->
+
    <!-- Gallery -->
    <div class="container-fluid pt-10">
       <div class="row justify-content-md-center ">
@@ -76,7 +59,7 @@
                         <img class="card-img-top" src="assets/img/photo-1.jpg" alt="Card image cap">
                         <div class="reveal h-100 bg-black text-white bg-dark text-white p-2 d-flex ">
                            <div class="w-100 align-self-center">
-                              <p class="text-center">I'm vertically centered</p>
+                              <p class="text-center">Sketches</p>
                            </div>
                         </div>
                      </a>
@@ -88,7 +71,7 @@
                         <img class="card-img-top" src="assets/img/photo-2.jpg" alt="Card image cap">
                         <div class="reveal h-100 bg-black text-white bg-dark text-white p-2 d-flex ">
                            <div class="w-100 align-self-center">
-                              <p class="text-center">I'm vertically centered</p>
+                              <p class="text-center">Paintings</p>
                            </div>
                         </div>
                      </a>
@@ -185,30 +168,24 @@
    <!-- End Gallery -->
    <!-- Footer -->
    <div class="container-fluid footer ">
-      <div class="row">
-         <div class="col-xl-2 col-md-8 offset-md-1 col-sm-12 ">
-            <p>
-               <a href="about.html">About</a><br>
-               <a href="story.html">Story</a><br>
-               <a href="services.html">Services</a><br>
-               <a href="contacts.html">Contacts</a><br>
-            </p>
+      <div class="footer-col">
+         <div class="footer-img-container">
+            <img class="footer-item" src="assets/img/footer.png" alt="footer image" />
          </div>
-         <div class="col-xl-2 col-md-8 offset-md-1 col-sm-12 ">
-            <p>
-               <a href="index.html">Privacy</a><br>
-               <a href="index.html">Termini di utilizzo </a><br>
-               <a href="index.html">Note legali </a><br>
-               <a href="index.html">Credits</a><br>
-            </p>
-         </div>
-         <div class="col-xl-2 col-md-8 offset-md-1 col-sm-12">
-            <p>
-               FONDAZIONE SENECA<br>
-               Via Longhena 116<br>
-               00060 - Nazzano (ROMA)<br>
-               TEL. +39 0327 8523827
-            </p>
+      </div>
+      <div class="footer-col footer-nav">
+         <a class="footer-item footer-nav-link" href="about.html">About Me</a>
+         <a class="footer-item footer-nav-link" href="design.html">Design</a>
+         <a class="footer-item footer-nav-link" href="about.html">Fine Art</a>
+      </div>
+      <div class="footer-col">
+         <p class="footer-item">michelleehigaa@gmail.com</p>
+         <div class="row"><a class="footer-item" href="https://www.instagram.com/aik.oart/" target="_blank">
+               <img class="social-logo" src="assets/img/instagram.png" alt="Instagram logo">
+            </a>
+            <a class="footer-item" href="https://www.linkedin.com/in/michelle-higa" target="_blank"> <img
+                  class="social-logo" src="assets/img/linkedin-logo.png" alt=">LinkedIn logo">
+            </a>
          </div>
       </div>
    </div>
@@ -217,7 +194,6 @@
    <script src="vendor/jquery.min.js"></script>
    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
    <script src="vendor/wow/wow.js"></script>
-   <script src="js/global.min.js"></script>
    <script src="js/script.js"></script>
    <script>
       new WOW().init();
