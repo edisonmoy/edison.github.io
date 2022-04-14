@@ -852,6 +852,9 @@ h2 {
     height: auto;
     margin-right: 20px;
 }
+.row-imgs img:hover {
+    cursor: zoom-in;
+}
 
 .row-title-container {
     margin-top: 30px;
@@ -864,13 +867,13 @@ h2 {
 }
 .item-title {
     font-size: 26px;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 0;
     /* text-transform: uppercase; */
 }
 .item-company {
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     text-transform: none;
     margin-bottom: 0;
@@ -901,9 +904,33 @@ h2 {
 }
 .item-single .row-imgs {
     margin-right: 50px;
+    width: 400px;
 }
 
 .item-single .row-imgs img {
     height: 300px;
     width: auto;
+}
+
+.image-carousel {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.carousel-control-close {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 5%;
+    right: 5%;
+    z-index: 100;
+}
+.carousel-control-close:hover {
+    opacity: 0.8;
+    cursor: pointer;
 }
