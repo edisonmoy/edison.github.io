@@ -902,6 +902,18 @@ h2 {
     display: flex;
     flex-direction: row;
 }
+@media (max-width: 767px) {
+    .item-single {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (min-width: 768px) {
+    .item-single {
+        display: flex;
+        flex-direction: row;
+    }
+}
 
 .item-single .row-imgs {
     margin-right: 50px;
