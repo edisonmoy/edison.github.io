@@ -2,27 +2,29 @@ $(document).ready(function () {
     $(this).scrollTop(0);
 });
 
-$(window).on("load", function () {
-    $("#birthdayModal").modal("show");
-});
+// When image is clicked
+$(".row-imgs img").click((e) => {
+    var src = e.target.src.trim();
 
-$("#birthdayModalClose").click(() => {
-    $("#birthdayModal").modal("hide");
-    $("#happy-birthday-sound").get(0).play();
-    $("#michelle-dance-container").css("display", "flex");
+    // Set clicked image as active
+    $(".carousel-item").each(function (i, obj) {
+        var currImgSrc = $(this).find("img").attr("src").trim();
 
-    setTimeout(function () {
-        $("#michelle-dance-container").css("display", "none");
-    }, 7500);
-});
+        if (currImgSrc.includes(src) || src.includes(currImgSrc)) {
+            $(this).attr("class", "carousel-item active");
+        } else {
+            $(this).attr("class", "carousel-item");
+        }
+    });
 
-$(".row-imgs img").click(() => {
+    // Show modal and hide all other content
     $(".image-carousel").css("display", "block");
     $(".display-container").css("display", "none");
     $(".footer").css("display", "none");
     $(".navigation").css("display", "none");
 });
 
+// Hide modal and show all other content
 $(".carousel-control-close").click(() => {
     $(".image-carousel").css("display", "none");
     $(".display-container").css("display", "block");

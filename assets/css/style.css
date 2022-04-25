@@ -844,7 +844,7 @@ h2 {
 }
 .row-imgs {
     display: flex;
-    flex-wrap: nowrap;
+    overflow-x: auto;
 }
 
 .row-imgs img {
@@ -879,12 +879,12 @@ h2 {
     margin-bottom: 0;
 }
 .item-source {
-    text-decoration: underline;
     margin-left: 10px;
-    font-size: 14px;
-    color: gray;
-    font-weight: 300;
-    margin-bottom: 0;
+}
+.item-source img {
+    height: 15px;
+    width: auto;
+    margin-bottom: 3px;
 }
 .item-subtitle {
     color: gray;
@@ -902,6 +902,7 @@ h2 {
     display: flex;
     flex-direction: row;
 }
+
 .item-single .row-imgs {
     margin-right: 50px;
     width: 400px;
@@ -912,14 +913,27 @@ h2 {
     width: auto;
 }
 
+.image-modal {
+    display: none;
+}
+
 .image-carousel {
     display: none;
     position: fixed;
     left: 0;
     top: 0;
     z-index: 1;
+    height: 100%;
+    width: 100%;
 }
-
+#carouselExampleControls {
+    height: 100%;
+    width: 100%;
+}
+.carousel-imgs {
+    height: 100%;
+    width: 100%;
+}
 .carousel-control-close {
     color: white;
     font-size: 30px;
@@ -933,4 +947,15 @@ h2 {
 .carousel-control-close:hover {
     opacity: 0.8;
     cursor: pointer;
+}
+.carousel-item,
+.carousel-item .d-flex {
+    height: 100%;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    max-height: 100%;
+    /* max-height: 100%; */
+    object-fit: contain;
 }
