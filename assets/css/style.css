@@ -6,10 +6,20 @@
     font-family: "Cabrito";
     src: url("../fonts/CabritoSerif-ConBla/CabritoSerif-ConReg.otf");
 }
+@font-face {
+    font-family: "ProximaSoft-ExtraBold";
+    src: url("../fonts/ProximaSoft/ProximaSoft-ExtraBold.ttf");
+}
+@font-face {
+    font-family: "Omnes-Regular";
+    src: url("../fonts/Omnes/Omnes.ttf");
+}
+
 /* Basic */
 
 body {
-    background-color: #ebeae9;
+    font-family: "Omnes-Regular";
+    background-color: #ffffff;
 }
 
 html {
@@ -52,12 +62,6 @@ h2 {
     min-height: 100%;
 }
 
-.cursive {
-    font-family: "Reenie Beanie", cursive;
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-
 /* Spacing */
 
 .no-gutter {
@@ -88,6 +92,7 @@ h2 {
 
 .navbar-brand {
     padding-left: 0px;
+    font-family: "ProximaSoft-ExtraBold";
 }
 
 .navbar-brand:link,
@@ -220,7 +225,6 @@ h2 {
 }
 .menu-link {
     color: black;
-    font-family: "Reenie Beanie", cursive;
     font-size: 26px;
 }
 
@@ -633,7 +637,6 @@ h2 {
 
 .stories-2-title {
     font-size: 2.5rem;
-    font-family: "Reenie Beanie", cursive;
 }
 
 .stories-2 {
@@ -734,7 +737,6 @@ h2 {
     color: black;
     margin: 0;
     font-size: 24px;
-    font-family: "Reenie Beanie", cursive;
 }
 .footer-img-container {
     display: flex;
